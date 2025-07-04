@@ -1,0 +1,30 @@
+export const colors = {
+  primary: {
+    dark: "#0e253d",
+    darkHover: "#1e3a52",
+    blue: "#0f3f72",
+    green: "#4cc460",
+    greenLight: "#ebf2eb",
+  },
+  secondary: {
+    pink: "#e84c88",
+    yellow: "#ffc633",
+    purple: "#5e77ff",
+    red: "#ff1f25",
+  },
+  neutral: {
+    white: "#ffffff",
+    background: "#fcfcfc",
+    gray50: "#f0f0f0",
+    gray100: "#eaeaea",
+    gray200: "#e4e4e4",
+    gray300: "#d8d8d8",
+    gray400: "#a4a4a4",
+    gray500: "#979797",
+    gray600: "#7a7a7a",
+    gray700: "#5c5c5c",
+    gray800: "#404040",
+    gray900: "#202224",
+    black: "#000000",
+  },
+} as const
